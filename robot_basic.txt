@@ -1,0 +1,37 @@
+robot framework
+open source
+key word driven
+multi plataform
+
+instalando o robot MAIS RECENTE. -U instala a versão mais recente por cima da antiga
+na raiz do terminal digite o comando
+pip install -U robotframework
+
+instalando as libraries
+instala a librarie selenium e requests (api) e faz o upgrade se já tiver uma versão mais antiga instalada e listar a libraries instaladas
+pip install -U robotframework-seleniumlibrary
+pip install -U robotframework-requests
+pip list
+
+instalando o plugin robot framework language server da robocorp
+navegue até https://chromewebstore.google.com/search/TruePath?hl=pt-br e instale a truepath pra ajudar nos testes
+
+
+instale o chromedriver e o geckodriver e cole eles na pasta scripts dentro da pasta pyhthon
+
+
+executando os testes com tags para incluir/excluir os testes com a tag "categorias" dentro do arquivo "amazom_tests.robot"
+
+robot -i categorias amazom_tests.robot
+robot -e categorias amazom_tests.robot
+
+
+executando
+robot -v BROWSER:firefox -i categorias -d results amazon_tests.robot
+
+robot -v BROWSER:firefox -d results amazon_tests.robot
+
+git status
+git add .
+git commit -m "commit do meu projeto de multiple-e2e"
+git push -u origin main
