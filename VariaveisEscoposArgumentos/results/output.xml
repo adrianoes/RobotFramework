@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-02-23T21:17:16.491432" rpa="false" schemaversion="5">
-<suite id="s1" name="Argumentos" source="C:\CursoUdemy\VariaveisEscoposArgumentos\Argumentos.robot">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-02-23T21:24:05.152622" rpa="false" schemaversion="5">
+<suite id="s1" name="Argumentos" source="C:\CursoUdemy\RobotFramework\VariaveisEscoposArgumentos\Argumentos.robot">
 <test id="s1-t1" name="Geração de e-mail aleatório" line="9">
 <kw name="Retorna o e-mail">
 <kw name="Armazena nome e sobrenome">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-02-23T21:17:16.952428" level="INFO">Nome Usuário: Adriano</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">Nome Usuário: Adriano</msg>
 <arg>Nome Usuário: ${NOME_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-02-23T21:17:16.952428" elapsed="0.000000"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-02-23T21:17:16.953428" level="INFO">Sobrenome Santos</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">Sobrenome Santos</msg>
 <arg>Sobrenome ${SOBRENOME_USUARIO}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-02-23T21:17:16.952428" elapsed="0.001000"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
 <arg>${PESSOA.nome}</arg>
 <arg>${PESSOA.sobrenome}</arg>
-<status status="PASS" start="2024-02-23T21:17:16.951372" elapsed="0.002056"/>
+<status status="PASS" start="2024-02-23T21:24:05.554301" elapsed="0.015626"/>
 </kw>
 <kw name="Cria a mensagem com e-mail gerado">
 <kw name="Year" owner="FakerLibrary">
-<msg time="2024-02-23T21:17:16.954432" level="INFO">${FAKE_YEAR} = 2020</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">${FAKE_YEAR} = 2005</msg>
 <var>${FAKE_YEAR}</var>
-<status status="PASS" start="2024-02-23T21:17:16.953428" elapsed="0.001004"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2024-02-23T21:17:16.954432" level="INFO">${MENSAGEM} = O email gerado é: AdrianoSantos2020@testerobot.com!</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">${MENSAGEM} = O email gerado é: AdrianoSantos2005@testerobot.com</msg>
 <var>${MENSAGEM}</var>
-<arg>O email gerado é: ${NOME_USUARIO}${SOBRENOME_USUARIO}${FAKE_YEAR}@testerobot.com!</arg>
+<arg>O email gerado é: ${NOME_USUARIO}${SOBRENOME_USUARIO}${FAKE_YEAR}@testerobot.com</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2024-02-23T21:17:16.954432" elapsed="0.000000"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
 <return>
 <value>${MENSAGEM}</value>
-<status status="PASS" start="2024-02-23T21:17:16.954432" elapsed="0.000000"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </return>
-<msg time="2024-02-23T21:17:16.954432" level="INFO">${MENSAGEM_FINAL} = O email gerado é: AdrianoSantos2020@testerobot.com!</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">${MENSAGEM_FINAL} = O email gerado é: AdrianoSantos2005@testerobot.com</msg>
 <var>${MENSAGEM_FINAL}</var>
 <arg>${PESSOA.nome}</arg>
 <arg>${PESSOA.sobrenome}</arg>
-<status status="PASS" start="2024-02-23T21:17:16.953428" elapsed="0.001004"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-02-23T21:17:16.954432" level="INFO">O email gerado é: AdrianoSantos2020@testerobot.com!</msg>
+<msg time="2024-02-23T21:24:05.569927" level="INFO">O email gerado é: AdrianoSantos2005@testerobot.com</msg>
 <arg>${MENSAGEM_FINAL}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-02-23T21:17:16.954432" elapsed="0.000000"/>
+<status status="PASS" start="2024-02-23T21:24:05.569927" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-02-23T21:17:16.951372" elapsed="0.003060"/>
+<status status="PASS" start="2024-02-23T21:24:05.554301" elapsed="0.015626"/>
 </kw>
-<status status="PASS" start="2024-02-23T21:17:16.950863" elapsed="0.004513"/>
+<status status="PASS" start="2024-02-23T21:24:05.554301" elapsed="0.015626"/>
 </test>
 <doc>Exemplo de uso de variáveis como argumentos em Keywords</doc>
-<status status="PASS" start="2024-02-23T21:17:16.493085" elapsed="0.463294"/>
+<status status="PASS" start="2024-02-23T21:24:05.152622" elapsed="0.417305"/>
 </suite>
 <statistics>
 <total>
@@ -67,6 +67,6 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2024-02-23T21:17:16.486748" level="WARN">Error in file 'C:\CursoUdemy\VariaveisEscoposArgumentos\Argumentos.robot' on line 28: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2024-02-23T21:24:05.152622" level="WARN">Error in file 'C:\CursoUdemy\RobotFramework\VariaveisEscoposArgumentos\Argumentos.robot' on line 28: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>
