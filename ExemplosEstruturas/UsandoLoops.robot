@@ -5,7 +5,7 @@ Documentation   Vamos aprender a fazer LOOPS usando o Robot Framework!!
 ### Indíce da lista          0      1        2       3       4       5
 @{MINHA_LISTA_DE_FRUTAS}   maça  abacaxi  banana  morango  laranja  uva
 
-*** Test Case ***
+*** Test Cases ***
 Teste de REPEAT KEYWORD
     [Documentation]  Chama uma mesma keyword várias vezes
     Usando Repeat keyword
@@ -33,6 +33,7 @@ Usando Repeat keyword
 
 Usando FOR IN RANGE
     Log To Console  ${\n}
+    # FOR  ${CONTADOR}   IN RANGE  0   5   2 #vai de 0 a 5 com saltando de 2 em 2
     FOR  ${CONTADOR}   IN RANGE  0   5
         Log To Console    Minha posição agora é: ${CONTADOR}
         Log   Minha posição agora é: ${CONTADOR}

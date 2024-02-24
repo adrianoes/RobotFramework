@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-02-24T11:14:52.589358" rpa="false" schemaversion="5">
+<suite id="s1" name="Loops" source="C:\CursoUdemy\RobotFramework\ExemplosEstruturas\loops.robot">
+<test id="s1-t1" name="Informa se o número é 5, 10 ou outro" line="8">
+<kw name="Informa numero">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.613555" elapsed="0.000000"/>
+</kw>
+<for flavor="IN ENUMERATE">
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.614510" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.613555" elapsed="0.000955"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.614510" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.614510" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.614510" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.614510" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.614510" elapsed="0.001054"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.614510" elapsed="0.001054"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.614510" elapsed="0.001054"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.613555" elapsed="0.002009"/>
+</if>
+<var name="${INDICE}">0</var>
+<var name="${NUMERO}">0</var>
+<status status="PASS" start="2024-02-24T11:14:52.613555" elapsed="0.002009"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.615564" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.615564" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.615564" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.615564" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.616553" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.616553" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.616553" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.615564" elapsed="0.000989"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.615564" elapsed="0.000989"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.615564" elapsed="0.000989"/>
+</if>
+<var name="${INDICE}">1</var>
+<var name="${NUMERO}">1</var>
+<status status="PASS" start="2024-02-24T11:14:52.615564" elapsed="0.000989"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.616553" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.616553" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.617553" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.616553" elapsed="0.001000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.617553" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.617553" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.617553" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.617553" elapsed="0.000961"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.617553" elapsed="0.000961"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.616553" elapsed="0.001961"/>
+</if>
+<var name="${INDICE}">2</var>
+<var name="${NUMERO}">2</var>
+<status status="PASS" start="2024-02-24T11:14:52.616553" elapsed="0.001961"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.618514" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.618514" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.618514" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.618514" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.619537" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.618514" elapsed="0.001023"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.619537" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.618514" elapsed="0.001023"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.618514" elapsed="0.001023"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.618514" elapsed="0.001023"/>
+</if>
+<var name="${INDICE}">3</var>
+<var name="${NUMERO}">3</var>
+<status status="PASS" start="2024-02-24T11:14:52.618514" elapsed="0.001023"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.619537" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.619537" elapsed="0.001002"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.620539" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.620539" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.620539" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.620539" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.620539" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.620539" elapsed="0.000974"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.620539" elapsed="0.000974"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.619537" elapsed="0.001976"/>
+</if>
+<var name="${INDICE}">4</var>
+<var name="${NUMERO}">4</var>
+<status status="PASS" start="2024-02-24T11:14:52.619537" elapsed="0.001976"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.622538" level="INFO">Eu sou o número 5!</msg>
+<arg>Eu sou o número 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.621513" elapsed="0.001025"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu sou o número 5!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.622538" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.621513" elapsed="0.002000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.621513" elapsed="0.002000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.621513" elapsed="0.002000"/>
+</if>
+<var name="${INDICE}">5</var>
+<var name="${NUMERO}">5</var>
+<status status="PASS" start="2024-02-24T11:14:52.621513" elapsed="0.002000"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.623513" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.624511" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.624511" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.624511" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.624511" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.624511" elapsed="0.001001"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.624511" elapsed="0.001001"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.624511" elapsed="0.001001"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.623513" elapsed="0.001999"/>
+</if>
+<var name="${INDICE}">6</var>
+<var name="${NUMERO}">6</var>
+<status status="PASS" start="2024-02-24T11:14:52.623513" elapsed="0.001999"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.625512" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.625512" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.626539" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.625512" elapsed="0.001027"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.626539" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.626539" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.626539" elapsed="0.000973"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.626539" elapsed="0.000973"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.626539" elapsed="0.000973"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.625512" elapsed="0.002000"/>
+</if>
+<var name="${INDICE}">7</var>
+<var name="${NUMERO}">7</var>
+<status status="PASS" start="2024-02-24T11:14:52.625512" elapsed="0.002000"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.627512" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.627512" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.627512" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.627512" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.628538" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.628538" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.628538" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.627512" elapsed="0.001026"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.627512" elapsed="0.001999"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.627512" elapsed="0.001999"/>
+</if>
+<var name="${INDICE}">8</var>
+<var name="${NUMERO}">8</var>
+<status status="PASS" start="2024-02-24T11:14:52.627512" elapsed="0.001999"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.630511" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.629511" elapsed="0.001000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.630511" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.630511" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.630511" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.630511" elapsed="0.001025"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.631536" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.630511" elapsed="0.001025"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.630511" elapsed="0.001025"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.629511" elapsed="0.003000"/>
+</if>
+<var name="${INDICE}">9</var>
+<var name="${NUMERO}">9</var>
+<status status="PASS" start="2024-02-24T11:14:52.629511" elapsed="0.003000"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.632511" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.632511" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.633560" level="INFO">Eu sou o número 10!</msg>
+<arg>Eu sou o número 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.633560" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu sou o número 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.633560" elapsed="0.000952"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.632511" elapsed="0.002001"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.632511" elapsed="0.002001"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<status status="NOT RUN" start="2024-02-24T11:14:52.634512" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.634512" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.632511" elapsed="0.002001"/>
+</if>
+<var name="${INDICE}">10</var>
+<var name="${NUMERO}">10</var>
+<status status="PASS" start="2024-02-24T11:14:52.632511" elapsed="0.002001"/>
+</iter>
+<iter>
+<if>
+<branch type="IF" condition="${INDICE} == 5">
+<kw name="Logar informações quando o índice for igual a 5">
+<status status="NOT RUN" start="2024-02-24T11:14:52.635516" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.635516" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE IF" condition="${INDICE} == 10">
+<kw name="Logar informações quando o índice for igual a 10">
+<status status="NOT RUN" start="2024-02-24T11:14:52.635516" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-02-24T11:14:52.635516" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o índice for igual a outro">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-24T11:14:52.636554" level="INFO">Eu não sou o número 5 e nem o 10!</msg>
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.636554" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.636554" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.635516" elapsed="0.001038"/>
+</kw>
+<status status="PASS" start="2024-02-24T11:14:52.635516" elapsed="0.001038"/>
+</branch>
+<status status="PASS" start="2024-02-24T11:14:52.635516" elapsed="0.001038"/>
+</if>
+<var name="${INDICE}">11</var>
+<var name="${NUMERO}">11</var>
+<status status="PASS" start="2024-02-24T11:14:52.635516" elapsed="0.001038"/>
+</iter>
+<var>${INDICE}</var>
+<var>${NUMERO}</var>
+<value>@{MINHA_LISTA_DE_NUMEROS}</value>
+<status status="PASS" start="2024-02-24T11:14:52.613555" elapsed="0.022999"/>
+</for>
+<status status="PASS" start="2024-02-24T11:14:52.612499" elapsed="0.024055"/>
+</kw>
+<doc>Executa um if dentro de um for para informar se o número é 5, 10 ou outro.</doc>
+<status status="PASS" start="2024-02-24T11:14:52.612499" elapsed="0.025012"/>
+</test>
+<doc>Vamos aprender a fazer LOOPS usando o Robot Framework!!</doc>
+<status status="PASS" start="2024-02-24T11:14:52.591386" elapsed="0.047125"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Loops">Loops</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
